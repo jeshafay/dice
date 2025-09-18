@@ -22,11 +22,11 @@ function winCondition(player1, player2) {
         result.textContent = "Draw!";
     }
 
-    if (player1 > player2){
+    else if (player1 > player2){
         result.textContent = "Player 1 Wins!";
     }
 
-    if (player1 < player2){
+    else if (player1 < player2){
         result.textContent = "Player 2 Wins!";
     }
 }
